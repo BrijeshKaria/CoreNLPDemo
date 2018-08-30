@@ -1,13 +1,14 @@
 package com.company;
 
 import edu.stanford.nlp.io.IOUtils;
-import edu.stanford.nlp.ling.*;
-import edu.stanford.nlp.pipeline.*;
-import edu.stanford.nlp.trees.*;
-import edu.stanford.nlp.util.*;
+import edu.stanford.nlp.ling.CoreAnnotations;
+import edu.stanford.nlp.ling.CoreLabel;
+import edu.stanford.nlp.pipeline.Annotation;
+import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+import edu.stanford.nlp.util.CoreMap;
 
 import java.io.IOException;
-import java.util.*;
+import java.util.Properties;
 import java.util.stream.Collectors;
 
 public class CreateRelationData {
@@ -35,6 +36,8 @@ public class CreateRelationData {
             int tokenNum = 1;
             int elementNum = 0;
             int entityNum = 0;
+            if(sentence.get(CoreAnnotations.MentionsAnnotation.class).size()==0)
+                continue;
             CoreMap currEntityMention = sentence.get(CoreAnnotations.MentionsAnnotation.class).get(entityNum);
             String currEntityMentionWords = currEntityMention.get(CoreAnnotations.TokensAnnotation.class).stream().map(token -> token.word()).
                     collect(Collectors.joining("/"));
