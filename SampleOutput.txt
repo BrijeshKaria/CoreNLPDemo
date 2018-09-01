@@ -1,0 +1,510 @@
+0	O	0	O	NN	2Q	O	O	O
+0	O	1	O	POS	's	O	O	O
+0	O	2	O	NN	8c	O	O	O
+0	O	3	O	NN	EPS	O	O	O
+0	O	4	O	NN	beat	O	O	O
+0	O	5	O	VBD	was	O	O	O
+0	O	6	O	VBN	driven	O	O	O
+0	O	7	O	IN	by	O	O	O
+0	PERCENT	8	O	CD/NN	+4/%	O	O	O
+0	O	9	O	NN	comp	O	O	O
+0	O	10	O	CC	and	O	O	O
+0	O	11	O	JJR	better	O	O	O
+0	O	12	O	IN	than	O	O	O
+0	O	13	O	VBN	expected	O	O	O
+0	NUMBER	14	O	JJ	gross	O	O	O
+0	O	15	O	NN	margin	O	O	O
+0	O	16	O	,	,	O	O	O
+0	O	17	O	VBG	sending	O	O	O
+0	O	18	O	DT	the	O	O	O
+0	O	19	O	NN	stock	O	O	O
+0	O	20	O	IN	up	O	O	O
+0	PERCENT	21	O	CD/NN	9/%	O	O	O
+0	O	22	O	IN	after	O	O	O
+0	O	23	O	DT	the	O	O	O
+0	O	24	O	NN	close	O	O	O
+0	O	25	O	.	.	O	O	O
+
+0	3	Metric_Period
+2	3	Metric_Val
+8	9	Metric_Val
+21	19	Metric_Val
+
+1	O	0	O	PRP	We	O	O	O
+1	O	1	O	VBP	expect	O	O	O
+1	O	2	O	NN	2Q	O	O	O
+1	O	3	O	MD	will	O	O	O
+1	O	4	O	VB	be	O	O	O
+1	O	5	O	DT	the	O	O	O
+1	O	6	O	JJS	strongest	O	O	O
+1	DATE	7	O	NN/IN/CD	quarter/in/2018	O	O	O
+1	O	8	O	CC	and	O	O	O
+1	O	9	O	VBP	remain	O	O	O
+1	O	10	O	NNP	UW	O	O	O
+1	O	11	O	,	,	O	O	O
+1	O	12	O	CC	but	O	O	O
+1	O	13	O	VBP	are	O	O	O
+1	O	14	O	VBN	encouraged	O	O	O
+1	O	15	O	IN	by	O	O	O
+1	O	16	O	DT	the	O	O	O
+1	O	17	O	JJ	strong	O	O	O
+1	O	18	O	NN	print	O	O	O
+1	O	19	O	.	.	O	O	O
+
+10	10	Metric_Val
+
+2	PERCENT	0	O	CD/NN	+4/%	O	O	O
+2	O	1	O	NN	2Q	O	O	O
+2	O	2	O	NNS	comps	O	O	O
+2	O	3	O	VBD	led	O	O	O
+2	O	4	O	DT	the	O	O	O
+2	O	5	O	NN	8c	O	O	O
+2	O	6	O	NN	EPS	O	O	O
+2	O	7	O	VBD	beat	O	O	O
+2	ORGANIZATION	8	O	NNP	Nordstrom	O	O	O
+2	O	9	O	POS	's	O	O	O
+2	O	10	O	NN	Anniversary	O	O	O
+2	O	11	O	NN	Sale	O	O	O
+2	O	12	O	VBD	drove	O	O	O
+2	PERCENT	13	O	CD/NN	+4/%	O	O	O
+2	O	14	O	NN	2Q	O	O	O
+2	O	15	O	NN	comp	O	O	O
+2	O	16	O	,	,	O	O	O
+2	O	17	O	VBG	besting	O	O	O
+2	O	18	O	PRP$	our	O	O	O
+2	PERCENT	19	O	CD/NN	+3/%	O	O	O
+2	O	20	O	NN	estimate	O	O	O
+2	O	21	O	-LRB-	-LRB-	O	O	O
+2	O	22	O	FW	vs.	O	O	O
+2	PERCENT	23	O	CD/NN	+1/%	O	O	O
+2	O	24	O	NN	Street	O	O	O
+2	O	25	O	-RRB-	-RRB-	O	O	O
+2	O	26	O	.	.	O	O	O
+
+0	2	Metric_Val
+1	2	Metric_Period
+5	6	Metric_Val
+
+3	O	0	O	DT	Both	O	O	O
+3	O	1	O	NNP	Full-Line	O	O	O
+3	O	2	O	-LRB-	-LRB-	O	O	O
+3	PERCENT	3	O	CD/NN	+4.1/%	O	O	O
+3	O	4	O	NN	comp	O	O	O
+3	O	5	O	-RRB-	-RRB-	O	O	O
+3	O	6	O	CC	and	O	O	O
+3	O	7	O	NN	Off-Price	O	O	O
+3	O	8	O	-LRB-	-LRB-	O	O	O
+3	PERCENT	9	O	CD/NN	+4/%	O	O	O
+3	O	10	O	NN	comp	O	O	O
+3	O	11	O	-RRB-	-RRB-	O	O	O
+3	O	12	O	VBD	performed	O	O	O
+3	O	13	O	RB	well	O	O	O
+3	O	14	O	,	,	O	O	O
+3	O	15	O	IN	as	O	O	O
+3	O	16	O	VBD	did	O	O	O
+3	O	17	O	NNP	eCommerce	O	O	O
+3	O	18	O	-LRB-	-LRB-	O	O	O
+3	PERCENT	19	O	CD/NN	+23/%	O	O	O
+3	O	20	O	NN	growth	O	O	O
+3	O	21	O	NN	y/y	O	O	O
+3	O	22	O	-RRB-	-RRB-	O	O	O
+3	O	23	O	.	.	O	O	O
+
+3	1	Metric_Val
+9	7	Metric_Val
+19	17	Metric_Val
+
+4	O	0	O	RB	Notably	O	O	O
+4	O	1	O	,	,	O	O	O
+4	ORGANIZATION	2	O	NNP	Nordstrom	O	O	O
+4	O	3	O	VBD	calculated	O	O	O
+4	O	4	O	PRP$	its	O	O	O
+4	O	5	O	NN	comp	O	O	O
+4	O	6	O	IN	on	O	O	O
+4	O	7	O	DT	a	O	O	O
+4	O	8	O	NN	like-week	O	O	O
+4	O	9	O	IN	for	O	O	O
+4	O	10	O	JJ	like-week	O	O	O
+4	O	11	O	NN	basis	O	O	O
+4	O	12	O	,	,	O	O	O
+4	O	13	O	VBG	making	O	O	O
+4	O	14	O	DT	this	O	O	O
+4	O	15	O	NN	result	O	O	O
+4	O	16	O	RB	even	O	O	O
+4	O	17	O	RBR	more	O	O	O
+4	O	18	O	JJ	impressive	O	O	O
+4	O	19	O	.	.	O	O	O
+
+2	5	Metric_Company
+
+5	PERCENT	0	O	CD/NN	35/%	O	O	O
+5	NUMBER	1	O	JJ	gross	O	O	O
+5	O	2	O	NN	margin	O	O	O
+5	O	3	O	JJ	impressed	O	O	O
+5	O	4	O	RB	as	O	O	O
+5	O	5	O	RB	well	O	O	O
+5	O	6	O	,	,	O	O	O
+5	O	7	O	VBG	benefiting	O	O	O
+5	O	8	O	IN	from	O	O	O
+5	O	9	O	JJR	higher	O	O	O
+5	O	10	O	JJ	regular	O	O	O
+5	O	11	O	NN	price	O	O	O
+5	O	12	O	NN	selling	O	O	O
+5	O	13	O	CC	and	O	O	O
+5	O	14	O	NN	occupancy	O	O	O
+5	O	15	O	NN	leverage	O	O	O
+5	O	16	O	.	.	O	O	O
+
+0	1	Metric_Val
+
+6	O	0	O	RB	Even	O	O	O
+6	O	1	O	VBG	excluding	O	O	O
+6	O	2	O	DT	a	O	O	O
+6	O	3	O	JJ	one-time	O	O	O
+6	O	4	O	,	,	O	O	O
+6	MONEY	5	O	$/CD	$/30M	O	O	O
+6	O	6	O	NN	benefit	O	O	O
+6	O	7	O	WDT	which	O	O	O
+6	O	8	O	MD	will	O	O	O
+6	O	9	O	VB	reverse	O	O	O
+6	O	10	O	IN	in	O	O	O
+6	O	11	O	NN	3Q	O	O	O
+6	O	12	O	-LRB-	-LRB-	O	O	O
+6	O	13	O	JJ	due	O	O	O
+6	O	14	O	TO	to	O	O	O
+6	O	15	O	DT	the	O	O	O
+6	O	16	O	JJ	new	O	O	O
+6	ORGANIZATION	17	O	NN	ASC	O	O	O
+6	NUMBER	18	O	CD	606	O	O	O
+6	O	19	O	NN	revenue	O	O	O
+6	O	20	O	NN	recognition	O	O	O
+6	O	21	O	NN	accounting	O	O	O
+6	O	22	O	NN	standard	O	O	O
+6	O	23	O	-RRB-	-RRB-	O	O	O
+6	O	24	O	,	,	O	O	O
+6	NUMBER	25	O	JJ	gross	O	O	O
+6	O	26	O	NN	margin	O	O	O
+6	O	27	O	MD	would	O	O	O
+6	O	28	O	VB	've	O	O	O
+6	O	29	O	JJ	beat	O	O	O
+6	O	30	O	NNS	estimates	O	O	O
+6	O	31	O	-LRB-	-LRB-	O	O	O
+6	PERCENT	32	O	CD/NN	34.2/%	O	O	O
+6	O	33	O	FW	pro-forma	O	O	O
+6	O	34	O	FW	vs.	O	O	O
+6	PERCENT	35	O	CD/NN/NN/NN	34.1/%/MSe/34/%	O	O	O
+6	O	36	O	NN	Street	O	O	O
+6	O	37	O	-RRB-	-RRB-	O	O	O
+6	O	38	O	.	.	O	O	O
+
+32	25	Metric_Val
+
+7	O	0	O	DT	This	O	O	O
+7	O	1	O	NN	combination	O	O	O
+7	O	2	O	IN	of	O	O	O
+7	O	3	O	JJ	better-than-expected	O	O	O
+7	NUMBER	4	O	JJ	gross	O	O	O
+7	O	5	O	NN	margin	O	O	O
+7	O	6	O	CC	and	O	O	O
+7	O	7	O	JJ	strong	O	O	O
+7	O	8	O	NNS	sales	O	O	O
+7	O	9	O	NN	growth	O	O	O
+7	O	10	O	-LRB-	-LRB-	O	O	O
+7	PERCENT	11	O	CD/NN	+7.1/%	O	O	O
+7	O	12	O	NN	y/y	O	O	O
+7	O	13	O	-RRB-	-RRB-	O	O	O
+7	O	14	O	VBD	yielded	O	O	O
+7	O	15	O	DT	the	O	O	O
+7	O	16	O	NN	8c	O	O	O
+7	O	17	O	NN	EPS	O	O	O
+7	O	18	O	NN	beat	O	O	O
+7	O	19	O	-LRB-	-LRB-	O	O	O
+7	NUMBER	20	O	CD	95c	O	O	O
+7	O	21	O	CC	vs.	O	O	O
+7	NUMBER	22	O	CD	87c	O	O	O
+7	O	23	O	NNP	MSe/84c	O	O	O
+7	O	24	O	NNP	Street	O	O	O
+7	O	25	O	-RRB-	-RRB-	O	O	O
+7	O	26	O	,	,	O	O	O
+7	O	27	O	VBG	rounding	O	O	O
+7	O	28	O	RP	out	O	O	O
+7	O	29	O	DT	the	O	O	O
+7	O	30	O	RB	really	O	O	O
+7	O	31	O	JJ	strong	O	O	O
+7	O	32	O	NN	quarter	O	O	O
+7	O	33	O	.	.	O	O	O
+
+20	17	Metric_Val
+
+8	O	0	O	PRP	We	O	O	O
+8	O	1	O	VBP	expect	O	O	O
+8	O	2	O	NN	2Q	O	O	O
+8	O	3	O	MD	will	O	O	O
+8	O	4	O	VB	be	O	O	O
+8	O	5	O	DT	the	O	O	O
+8	O	6	O	JJS	best	O	O	O
+8	DATE	7	O	NN/IN/CD	quarter/in/2018	O	O	O
+8	O	8	O	:	:	O	O	O
+8	O	9	O	PRP	We	O	O	O
+8	O	10	O	VBP	think	O	O	O
+8	O	11	O	NN	2Q	O	O	O
+8	O	12	O	MD	will	O	O	O
+8	O	13	O	RB	likely	O	O	O
+8	O	14	O	VB	deliver	O	O	O
+8	O	15	O	DT	the	O	O	O
+8	O	16	O	JJS	best	O	O	O
+8	SET	17	O	JJ	quarterly	O	O	O
+8	O	18	O	NN	comp	O	O	O
+8	O	19	O	-LRB-	-LRB-	O	O	O
+8	NUMBER	20	O	CD	+4	O	O	O
+8	O	21	O	-RRB-	-RRB-	O	O	O
+8	O	22	O	CC	and	O	O	O
+8	O	23	O	NN	EPS	O	O	O
+8	O	24	O	NN	growth	O	O	O
+8	O	25	O	-LRB-	-LRB-	O	O	O
+8	PERCENT	26	O	CD/NN	+45.7/%	O	O	O
+8	O	27	O	NN	y/y	O	O	O
+8	O	28	O	-RRB-	-RRB-	O	O	O
+8	O	29	O	IN	of	O	O	O
+8	DATE	30	O	DT/NN	the/year	O	O	O
+8	O	31	O	.	.	O	O	O
+
+20	18	Metric_Val
+26	23	Metric_Val
+11	18	Metric_Period
+11	23	Metric_Period
+
+9	O	0	O	NNP	Historically	O	O	O
+9	O	1	O	,	,	O	O	O
+9	O	2	O	DT	the	O	O	O
+9	DATE	3	O	NN/NN/NN	Anniversary/Sale/quarter	O	O	O
+9	O	4	O	VBZ	has	O	O	O
+9	O	5	O	RB	not	O	O	O
+9	O	6	O	VBN	represented	O	O	O
+9	DATE	7	O	DT/JJ/JJ/NN	the/corresponding/full/year	O	O	O
+9	O	8	O	NN	trend	O	O	O
+9	O	9	O	:	;	O	O	O
+9	O	10	O	IN	while	O	O	O
+9	DATE	11	O	DT/NN	this/year	O	O	O
+9	O	12	O	VBZ	is	O	O	O
+9	O	13	O	DT	no	O	O	O
+9	O	14	O	NN	exception	O	O	O
+9	O	15	O	,	,	O	O	O
+9	O	16	O	PRP	we	O	O	O
+9	O	17	O	VBP	are	O	O	O
+9	O	18	O	VBN	encouraged	O	O	O
+9	O	19	O	IN	by	O	O	O
+9	O	20	O	NN	management	O	O	O
+9	O	21	O	POS	's	O	O	O
+9	O	22	O	NN	commentary	O	O	O
+9	O	23	O	VBG	regarding	O	O	O
+9	O	24	O	JJ	full-price	O	O	O
+9	O	25	O	NNS	trends	O	O	O
+9	O	26	O	VBG	remaining	O	O	O
+9	O	27	O	RB	fairly	O	O	O
+9	O	28	O	JJ	consistent	O	O	O
+9	O	29	O	IN	across	O	O	O
+9	O	30	O	DT	all	O	O	O
+9	DURATION	31	O	CD/NNS	three/months	O	O	O
+9	O	32	O	IN	in	O	O	O
+9	O	33	O	NN	2Q	O	O	O
+9	O	34	O	.	.	O	O	O
+
+
+
+10	O	0	O	NN	2Q	O	O	O
+10	O	1	O	POS	's	O	O	O
+10	O	2	O	NN	performance	O	O	O
+10	O	3	O	VBD	drove	O	O	O
+10	ORGANIZATION	4	O	NNP	JWN	O	O	O
+10	O	5	O	POS	's	O	O	O
+10	O	6	O	VBN	increased	O	O	O
+10	O	7	O	JJ	full	O	O	O
+10	DURATION	8	O	NN	year	O	O	O
+10	O	9	O	NN	guidance	O	O	O
+10	O	10	O	CC	and	O	O	O
+10	O	11	O	PRP	we	O	O	O
+10	O	12	O	VBP	raise	O	O	O
+10	O	13	O	PRP$	our	O	O	O
+10	O	14	O	NNS	estimates	O	O	O
+10	O	15	O	RB	accordingly	O	O	O
+10	O	16	O	.	.	O	O	O
+
+
+
+11	O	0	O	PRP	We	O	O	O
+11	O	1	O	RB	still	O	O	O
+11	O	2	O	VBP	expect	O	O	O
+11	NUMBER	3	O	CD	400	O	O	O
+11	O	4	O	NNS	bps	O	O	O
+11	O	5	O	IN	of	O	O	O
+11	O	6	O	JJ	sequential	O	O	O
+11	O	7	O	NN	comp	O	O	O
+11	O	8	O	NN	deceleration	O	O	O
+11	O	9	O	IN	in	O	O	O
+11	O	10	O	NN	3Q	O	O	O
+11	O	11	O	-LRB-	-LRB-	O	O	O
+11	O	12	O	JJ	flat	O	O	O
+11	O	13	O	NN	3Q	O	O	O
+11	O	14	O	CC	vs.	O	O	O
+11	PERCENT	15	O	CD/NN	+4/%	O	O	O
+11	O	16	O	NN	2Q	O	O	O
+11	O	17	O	-RRB-	-RRB-	O	O	O
+11	O	18	O	CC	and	O	O	O
+11	O	19	O	IN	though	O	O	O
+11	O	20	O	PRP	we	O	O	O
+11	O	21	O	VBP	remain	O	O	O
+11	O	22	O	JJ	Underweight	O	O	O
+11	O	23	O	,	,	O	O	O
+11	O	24	O	PRP	we	O	O	O
+11	O	25	O	VBP	are	O	O	O
+11	O	26	O	VBN	encouraged	O	O	O
+11	O	27	O	IN	by	O	O	O
+11	ORGANIZATION	28	O	NNP	JWN	O	O	O
+11	O	29	O	POS	's	O	O	O
+11	O	30	O	NN	2Q	O	O	O
+11	O	31	O	NNS	results	O	O	O
+11	O	32	O	.	.	O	O	O
+
+3	7	Metric_Val
+13	7	Metric_Period
+15	7	Metric_Val
+16	7	Metric_Period
+22	22	Metric_Val
+
+12	O	0	O	PRP	We	O	O	O
+12	O	1	O	VBP	raise	O	O	O
+12	O	2	O	PRP$	our	O	O	O
+12	DATE	3	O	CD	2018	O	O	O
+12	O	4	O	NNS	EPS	O	O	O
+12	O	5	O	VBP	estimate	O	O	O
+12	O	6	O	TO	to	O	O	O
+12	MONEY	7	O	$/CD	$/3.51	O	O	O
+12	O	8	O	CC	and	O	O	O
+12	O	9	O	VB	lift	O	O	O
+12	O	10	O	PRP$	our	O	O	O
+12	O	11	O	NN	price	O	O	O
+12	O	12	O	NN	target	O	O	O
+12	O	13	O	TO	to	O	O	O
+12	MONEY	14	O	$/CD	$/47	O	O	O
+12	O	15	O	:	:	O	O	O
+12	O	16	O	PRP	We	O	O	O
+12	O	17	O	VBP	raise	O	O	O
+12	O	18	O	PRP$	our	O	O	O
+12	DATE	19	O	CD	2018	O	O	O
+12	O	20	O	NN	comp	O	O	O
+12	O	21	O	NNS	sales	O	O	O
+12	O	22	O	NN	estimate	O	O	O
+12	O	23	O	TO	to	O	O	O
+12	PERCENT	24	O	CD/NN	+1.5/%	O	O	O
+12	O	25	O	-LRB-	-LRB-	O	O	O
+12	O	26	O	FW	vs.	O	O	O
+12	PERCENT	27	O	CD/NN	+0.5/%	O	O	O
+12	O	28	O	JJ	prior	O	O	O
+12	O	29	O	CC	and	O	O	O
+12	PERCENT	30	O	CD/NN	+1.5/%	O	O	O
+12	O	31	O	TO	to	O	O	O
+12	PERCENT	32	O	CD/NN	+2/%	O	O	O
+12	O	33	O	NN	guidance	O	O	O
+12	O	34	O	-RRB-	-RRB-	O	O	O
+12	O	35	O	.	.	O	O	O
+
+7	4	Metric_Val
+14	11	Metric_Val
+24	20	Metric_Val
+19	20	Metric_Period
+
+13	O	0	O	RB	Additionally	O	O	O
+13	O	1	O	,	,	O	O	O
+13	O	2	O	PRP	we	O	O	O
+13	O	3	O	VBP	lift	O	O	O
+13	O	4	O	PRP$	our	O	O	O
+13	NUMBER	5	O	JJ	gross	O	O	O
+13	O	6	O	NN	margin	O	O	O
+13	O	7	O	NN	estimate	O	O	O
+13	O	8	O	TO	to	O	O	O
+13	PERCENT	9	O	CD/NN	34.8/%	O	O	O
+13	O	10	O	-LRB-	-LRB-	O	O	O
+13	O	11	O	FW	vs.	O	O	O
+13	PERCENT	12	O	CD/NN	34.7/%	O	O	O
+13	O	13	O	JJ	prior	O	O	O
+13	O	14	O	-RRB-	-RRB-	O	O	O
+13	O	15	O	CC	and	O	O	O
+13	DATE	16	O	RB	now	O	O	O
+13	O	17	O	JJ	model	O	O	O
+13	NUMBER	18	O	CD	20	O	O	O
+13	O	19	O	NNS	bps	O	O	O
+13	O	20	O	JJ	y/y	O	O	O
+13	O	21	O	NN	SG&A	O	O	O
+13	O	22	O	NN	leverage	O	O	O
+13	O	23	O	-LRB-	-LRB-	O	O	O
+13	PERCENT	24	O	CD/NN	30.6/%	O	O	O
+13	O	25	O	NN	rate	O	O	O
+13	O	26	O	CC	vs.	O	O	O
+13	PERCENT	27	O	CD/NN	31.6/%	O	O	O
+13	O	28	O	JJ	prior	O	O	O
+13	O	29	O	-RRB-	-RRB-	O	O	O
+13	O	30	O	.	.	O	O	O
+
+9	5	Metric_Val
+
+14	O	0	O	DT	All	O	O	O
+14	O	1	O	IN	in	O	O	O
+14	O	2	O	,	,	O	O	O
+14	O	3	O	DT	this	O	O	O
+14	O	4	O	VBZ	results	O	O	O
+14	O	5	O	IN	in	O	O	O
+14	O	6	O	PRP$	our	O	O	O
+14	O	7	O	JJ	new	O	O	O
+14	MONEY	8	O	$/CD	$/3.51	O	O	O
+14	O	9	O	NN	EPS	O	O	O
+14	O	10	O	NN	estimate	O	O	O
+14	O	11	O	-LRB-	-LRB-	O	O	O
+14	O	12	O	FW	vs.	O	O	O
+14	MONEY	13	O	$/CD	$/3.35	O	O	O
+14	O	14	O	RB	prior	O	O	O
+14	O	15	O	-RRB-	-RRB-	O	O	O
+14	O	16	O	.	.	O	O	O
+
+8	9	Metric_Val
+
+15	O	0	O	RB	Finally	O	O	O
+15	O	1	O	,	,	O	O	O
+15	O	2	O	DT	this	O	O	O
+15	O	3	O	VBZ	flows	O	O	O
+15	O	4	O	IN	through	O	O	O
+15	O	5	O	TO	to	O	O	O
+15	O	6	O	PRP$	our	O	O	O
+15	O	7	O	RP	out	O	O	O
+15	DURATION	8	O	NNS	years	O	O	O
+15	O	9	O	,	,	O	O	O
+15	O	10	O	VBG	raising	O	O	O
+15	O	11	O	DT	each	O	O	O
+15	O	12	O	IN	by	O	O	O
+15	O	13	O	NN	20c	O	O	O
+15	O	14	O	-LRB-	-LRB-	O	O	O
+15	MONEY	15	O	$/CD	$/3.50	O	O	O
+15	DATE	16	O	CD	2019	O	O	O
+15	O	17	O	:	/	O	O	O
+15	MONEY	18	O	$/CD	$/3.80	O	O	O
+15	DURATION	19	O	CD	2020-2022	O	O	O
+15	O	20	O	IN	vs.	O	O	O
+15	MONEY	21	O	$/CD/:/$/CD	$/3.30///$/3.60	O	O	O
+15	O	22	O	RB	respectively	O	O	O
+15	O	23	O	-RRB-	-RRB-	O	O	O
+15	O	24	O	CC	and	O	O	O
+15	O	25	O	VBZ	lifts	O	O	O
+15	O	26	O	PRP$	our	O	O	O
+15	O	27	O	NN	price	O	O	O
+15	O	28	O	NN	target	O	O	O
+15	O	29	O	TO	to	O	O	O
+15	MONEY	30	O	$/CD	$/47	O	O	O
+15	O	31	O	-LRB-	-LRB-	O	O	O
+15	O	32	O	FW	vs.	O	O	O
+15	MONEY	33	O	$/CD	$/44	O	O	O
+15	O	34	O	RB	prior	O	O	O
+15	O	35	O	-RRB-	-RRB-	O	O	O
+15	O	36	O	.	.	O	O	O
+
+30	27	Metric_Val
+
