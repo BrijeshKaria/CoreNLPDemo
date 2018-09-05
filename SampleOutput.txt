@@ -2,7 +2,7 @@
 0	O	1	O	POS	's	O	O	O
 0	O	2	O	NN	8c	O	O	O
 0	FINTERM	3	O	NN	EPS	O	O	O
-0	FINTERM	4	O	NN	beat	O	O	O
+0	O	4	O	NN	beat	O	O	O
 0	O	5	O	VBD	was	O	O	O
 0	O	6	O	VBN	driven	O	O	O
 0	O	7	O	IN	by	O	O	O
