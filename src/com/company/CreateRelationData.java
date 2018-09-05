@@ -19,7 +19,8 @@ public class CreateRelationData {
     public static void main(String[] args) {
         // set up pipeline properties
         Properties props = new Properties();
-        props.setProperty("annotators", "tokenize,ssplit,pos,lemma,ner,entitymentions");
+        props.put("annotators", "tokenize, ssplit, pos, lemma, ner, entitymentions, regexner");
+        props.put("regexner.mapping", "basic_ner.rules");
         // set up Stanford CoreNLP pipeline
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
         // build annotation for a review
