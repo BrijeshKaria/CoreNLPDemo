@@ -28,10 +28,10 @@ public class CreateRelationData {
         try {
             fileContents = IOUtils.slurpFile(args[0]);
         } catch (IOException e) {
-            fileContents = "Joe Smith lives in Hawaii.";
+            fileContents = "We expect that the Earnings Per Share - EPS of Google will be up by 4% in 4th quarter of 2018.";
             //e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }     catch (Exception ex){
-            fileContents = "Joe Smith lives in Hawaii.";
+        } catch (Exception ex) {
+            fileContents = "We expect that the Earnings Per Share - EPS of Google will be up by 4% in 4th quarter of 2018.";
         }
         Annotation annotation = new Annotation(fileContents);
         pipeline.annotate(annotation);
@@ -42,7 +42,7 @@ public class CreateRelationData {
             int tokenNum = 1;
             int elementNum = 0;
             int entityNum = 0;
-            if(sentence.get(CoreAnnotations.MentionsAnnotation.class).size()==0)
+            if (sentence.get(CoreAnnotations.MentionsAnnotation.class).size() == 0)
                 continue;
             CoreMap currEntityMention = sentence.get(CoreAnnotations.MentionsAnnotation.class).get(entityNum);
             String currEntityMentionWords = currEntityMention.get(CoreAnnotations.TokensAnnotation.class).stream().map(token -> token.word()).
@@ -54,10 +54,10 @@ public class CreateRelationData {
             while (tokenNum <= sentence.get(CoreAnnotations.TokensAnnotation.class).size()) {
                 if (currEntityMention.get(CoreAnnotations.TokensAnnotation.class).get(0).index() == tokenNum) {
                     String entityText = currEntityMention.toString();
-                    System.out.println(sentNum+"\t"+currEntityMentionNER+"\t"+elementNum+"\t"+"O\t"+currEntityMentionTags+"\t"+
-                            currEntityMentionWords+"\t"+"O\tO\tO");
-                    sbf.append(sentNum+"\t"+currEntityMentionNER+"\t"+elementNum+"\t"+"O\t"+currEntityMentionTags+"\t"+
-                            currEntityMentionWords+"\t"+"O\tO\tO");
+                    System.out.println(sentNum + "\t" + currEntityMentionNER + "\t" + elementNum + "\t" + "O\t" + currEntityMentionTags + "\t" +
+                            currEntityMentionWords + "\t" + "O\tO\tO");
+                    sbf.append(sentNum + "\t" + currEntityMentionNER + "\t" + elementNum + "\t" + "O\t" + currEntityMentionTags + "\t" +
+                            currEntityMentionWords + "\t" + "O\tO\tO");
                     sbf.append(System.lineSeparator());
                     // update tokenNum
                     tokenNum += (currEntityMention.get(CoreAnnotations.TokensAnnotation.class).size());
@@ -73,8 +73,8 @@ public class CreateRelationData {
                         currEntityMentionNER = currEntityMention.get(CoreAnnotations.EntityTypeAnnotation.class);
                     }
                 } else {
-                    CoreLabel token = sentence.get(CoreAnnotations.TokensAnnotation.class).get(tokenNum-1);
-                    System.out.println(sentNum+"\t"+token.ner()+"\t"+elementNum+"\tO\t"+token.tag()+"\t"+token.word()+"\t"+"O\tO\tO");
+                    CoreLabel token = sentence.get(CoreAnnotations.TokensAnnotation.class).get(tokenNum - 1);
+                    System.out.println(sentNum + "\t" + token.ner() + "\t" + elementNum + "\tO\t" + token.tag() + "\t" + token.word() + "\t" + "O\tO\tO");
                     sbf.append(sentNum + "\t" + token.ner() + "\t" + elementNum + "\tO\t" + token.tag() + "\t" + token.word() + "\t" + "O\tO\tO");
                     sbf.append(System.lineSeparator());
                     tokenNum += 1;
@@ -90,7 +90,7 @@ public class CreateRelationData {
             sbf.append(System.lineSeparator());
             sbf.append(System.lineSeparator());
         }
-      // Write sbf to file
+        // Write sbf to file
         BufferedWriter bwr = null;
         try {
             bwr = new BufferedWriter(new FileWriter(new File("SampleOutput.txt")));
@@ -99,7 +99,7 @@ public class CreateRelationData {
 
         } catch (IOException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }     finally {
+        } finally {
 
             if (bwr != null) {
                 try {
@@ -108,16 +108,13 @@ public class CreateRelationData {
                     //close the stream
                     bwr.close();
                 } catch (IOException e) {
-                   // e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                    // e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
                 }
 
             }
 
 
-
         }
-
-
 
 
         System.out.println("Content of StringBuffer written to File.");
