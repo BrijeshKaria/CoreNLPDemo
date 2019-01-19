@@ -7,7 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="file://$MODULE_DIR$/../stanford-corenlp" />
@@ -15,12 +15,33 @@
         <JAVADOC />
         <SOURCES>
           <root url="file://$MODULE_DIR$/../stanford-corenlp" />
-          <root url="file://$MODULE_DIR$/../stanford-corenlp" />
         </SOURCES>
         <jarDirectory url="file://$MODULE_DIR$/../stanford-corenlp" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/../stanford-corenlp" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../CoreNLP" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../CoreNLP/itest/src" />
+          <root url="file://$MODULE_DIR$/../CoreNLP/src" />
+          <root url="file://$MODULE_DIR$/../CoreNLP/test/src" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../CoreNLP" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../CoreNLP/stanford-corenlp-models-current.jar!/edu/stanford/nlp/models/kbp/tokensregex" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
-
