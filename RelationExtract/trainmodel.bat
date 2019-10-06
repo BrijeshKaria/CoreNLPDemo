@@ -1,0 +1,1 @@
+java -cp ../../Corenlp/*;../out/artifacts/CoreNLPDemo_jar/* edu.stanford.nlp.ie.machinereading.MachineReading --arguments roth.properties

@@ -19,13 +19,17 @@ public class CreateRelationData {
     public static void main(String[] args) {
         // set up pipeline properties
         Properties props = new Properties();
+        //props.put("annotators", "tokenize, ssplit, pos, lemma,depparse");
         props.put("annotators", "tokenize, ssplit, pos, lemma, ner, entitymentions, regexner");
-        props.put("regexner.mapping", "basic_ner.rules");
+        //props.put("annotators", "tokenize, ssplit, pos, lemma, ner, entitymentions");
+        props.put("regexner.mapping", "Resources/basic_ner.rules");
+        props.put("ner.model", "edu/stanford/nlp/models/ner/english.muc.7class.distsim.crf.ser.gz");
         // set up Stanford CoreNLP pipeline
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
         // build annotation for a review
         String fileContents;
         try {
+            System.out.println("Reading content from file...");
             fileContents = IOUtils.slurpFile(args[0]);
         } catch (IOException e) {
             fileContents = "We expect that the Earnings Per Share - EPS of Google will be up by 4% in 4th quarter of 2018.";
